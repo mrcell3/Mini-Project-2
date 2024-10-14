@@ -43,6 +43,7 @@ NIM : 2409116072
 
 -Jika username & password salah, program akan mengembalikan pesan "Login gagal: Username atau password salah.
 
+
 2. Menu untuk Penyewa
 
 Jika login sebagai penyewa, pengguna disajikan beberapa opsi dalam menu:
@@ -52,6 +53,7 @@ Jika login sebagai penyewa, pengguna disajikan beberapa opsi dalam menu:
 -Opsi 2: Pesan kamar – Penyewa diminta memasukkan nomor kamar yang ingin dipesan. Jika kamar tersebut masih kosong, penyewa harus mengonfirmasi pemesanan dan memilih metode pembayaran (transfer atau tunai). Status kamar akan berubah menjadi "terisi" setelah kamar dipesan.
 
 -Opsi 3: Keluar – Setelah penyewa selesai menggunakan menu ini, mereka bisa keluar dari program atau kembali ke menu utama.
+
 
 3. Menu untuk Admin
 
@@ -67,6 +69,7 @@ Jika login sebagai admin, pengguna akan memiliki lebih banyak kontrol atas siste
 
 -Opsi 5: Keluar – Setelah admin selesai melakukan tugasnya, mereka dapat kembali ke menu utama atau keluar dari program.
 
+
 4. Main Program
 
 -Setelah login berhasil, program akan memanggil fungsi menu yang sesuai dengan peran pengguna.
@@ -76,5 +79,6 @@ Jika login sebagai admin, pengguna akan memiliki lebih banyak kontrol atas siste
 -Jika pengguna adalah admin, akan dipanggil fungsi admin_menu() yang memberikan kontrol penuh atas pengelolaan kamar.
 
 -Program akan terus berjalan hingga pengguna memilih untuk keluar dengan memilih opsi "Keluar".
+
 
 Setelah pengguna selesai menggunakan menu dan memilih opsi untuk keluar, program akan berhenti.
