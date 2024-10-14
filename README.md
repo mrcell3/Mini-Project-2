@@ -34,29 +34,47 @@ NIM : 2409116072
 # Penjelasan
 
 1. Login Sistem
+
 -Saat program dijalankan, pengguna dihadapkan dengan sistem login.
+
 -Pengguna diminta untuk memasukkan username dan password sesuai dengan rolenya.
+
 -Jika cocok, program akan memeriksa apakah pengguna adalah admin atau penyewa, dan akan menampilkan menu yang sesuai berdasarkan peran pengguna.
+
 -Jika username & password salah, program akan mengembalikan pesan "Login gagal: Username atau password salah.
 
 2. Menu untuk Penyewa
+
 Jika login sebagai penyewa, pengguna disajikan beberapa opsi dalam menu:
+
 -Opsi 1: Lihat semua kamar – Penyewa dapat melihat semua kamar kost yang tersedia dengan harga, status (kosong/terisi), dan tipe kamar (A/B).
+
 -Opsi 2: Pesan kamar – Penyewa diminta memasukkan nomor kamar yang ingin dipesan. Jika kamar tersebut masih kosong, penyewa harus mengonfirmasi pemesanan dan memilih metode pembayaran (transfer atau tunai). Status kamar akan berubah menjadi "terisi" setelah kamar dipesan.
+
 -Opsi 3: Keluar – Setelah penyewa selesai menggunakan menu ini, mereka bisa keluar dari program atau kembali ke menu utama.
 
 3. Menu untuk Admin
+
 Jika login sebagai admin, pengguna akan memiliki lebih banyak kontrol atas sistem dengan beberapa opsi tambahan:
+
 -Opsi 1: Tambah kamar baru – Admin dapat menambah kamar baru ke dalam daftar. Admin memasukkan nomor kamar, harga, dan tipe kamar.
+
 -Opsi 2: Ubah harga kamar – Admin dapat mengubah harga sewa dari kamar tertentu. Admin memasukkan nomor kamar yang ingin diubah dan harga baru.
+
 -Opsi 3: Ubah status kamar – Admin dapat mengubah status kamar dari "kosong" ke "terisi" atau sebaliknya.
+
 -Opsi 4: Hapus kamar – Admin dapat menghapus kamar dari sistem dengan memasukkan nomor kamar yang akan dihapus.
+
 -Opsi 5: Keluar – Setelah admin selesai melakukan tugasnya, mereka dapat kembali ke menu utama atau keluar dari program.
 
 4. Main Program
+
 -Setelah login berhasil, program akan memanggil fungsi menu yang sesuai dengan peran pengguna.
+
 -Jika pengguna adalah penyewa, akan dipanggil fungsi penyewa_menu() yang memberikan akses ke opsi-opsi penyewa.
+
 -Jika pengguna adalah admin, akan dipanggil fungsi admin_menu() yang memberikan kontrol penuh atas pengelolaan kamar.
+
 -Program akan terus berjalan hingga pengguna memilih untuk keluar dengan memilih opsi "Keluar".
 
 Setelah pengguna selesai menggunakan menu dan memilih opsi untuk keluar, program akan berhenti.
